@@ -1,0 +1,14 @@
+# Ignore the huge datasets
+mitbih_train.csv
+mitbih_test.csv
+data/mitbih_train.csv
+data/mitbih_test.csv
+
+# Keep the small samples for demo purposes
+!test_samples.csv
+!sample_test.csv
+
+# Ignore checkpoints and cache
+.ipynb_checkpoints/
+__pycache__/
+venv/
